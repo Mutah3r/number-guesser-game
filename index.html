@@ -17,17 +17,17 @@
         <div class="hero-content text-center">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">GuessIt!</h1>
-                <p class="py-4">Guess a number between 1 to 100</p>
-                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <p class="py-4">Guess a number between 1 to 10</p>
+                <input id="text-box" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
                 <div class="alert bg-slate-300 my-4">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         class="stroke-info shrink-0 w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span class="">3 Chances Left</span>
+                    <span id="alert-text">3 Chances Left</span>
                 </div>
-                <button class="btn btn-neutral w-full text-center">Guess</button>
+                <button id="guess-btn" class="btn btn-neutral w-full text-center">Guess</button>
             </div>
         </div>
     </div>
